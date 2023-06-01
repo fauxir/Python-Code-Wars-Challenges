@@ -33,4 +33,4 @@ def is_prime(num):
     return True
 
 
-print(int(25**0.5))
+print(int(36**0.5))

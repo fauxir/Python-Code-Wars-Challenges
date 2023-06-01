@@ -1,0 +1,1 @@
+print(arr.remove(arr[i]))
