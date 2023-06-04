@@ -25,4 +25,4 @@ def solve(arr):
     return x            
 
 
-print(solve([3,4,4,3,6,3]))
+print(solve([3,4,4,3]))
