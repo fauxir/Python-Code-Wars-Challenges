@@ -15,14 +15,12 @@
 
 
 
-def solve(arr):
-    print("begining :",arr) 
-    for i in range(0, len(arr)):
-        for j in range(len(arr)-1, i, -1):
-            if(arr[i] == arr[j]):
-                x = arr.remove(arr[i])
-                
-    return x            
+def solve(arr): 
+    list = arr.copy()
+    for i in arr:
+        if list.count(i) > 1:
+            list.remove(i)
+    return list     
 
 
-print(solve([3,4,4,3]))
+print(solve([3, 4, 4, 3, 6, 3]))
